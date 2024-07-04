@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <h2>Simple Chat</h2>
+        <div class="chat-log">
+            <ul id="chat-log">
+                <!-- chat messages will be displayed here -->
+            </ul>
+        </div>
+        <form id="chat-form">
+            <input type="text" id="message-input" placeholder="Type a message...">
+            <button id="send-btn">Send</button>
+        </form>
+        <div class="user-info">
+            <p>You are: <span id="user-name">User 1</span></p>
+            <p>Chatting with: <span id="other-user-name">User 2</span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
